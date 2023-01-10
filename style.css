@@ -6,7 +6,7 @@ body {
     width: 98vw;
     overflow-x: hidden;
     overflow-y: visible;
-    transition: all 2s ease;
+    transition: all 0.5s ease;
     min-width: 300px;
     min-height: 700px;
 }
@@ -110,7 +110,7 @@ h2:hover {
 
 .body-dark {
     background-color: white;
-    transition: all 2s ease;
+    transition: all 1s ease;
     
 }
 
@@ -120,7 +120,7 @@ h2:hover {
     width: 98%;
     font-family: 'Zen Antique', serif;
     padding-right: 2vw;
-    transition: all 2s ease;
+    transition: all 0.5s ease;
     display: flex;
     
     align-items:flex-end;
@@ -150,17 +150,17 @@ h2:hover {
 .div1-dark {
     background-color: black;
     color: white;
-    transition: all 2s ease;
+    transition: all 0.5s ease;
 }
 
 .div15 {
     background-color: white;
-    width: vw;
+    width: 90%;
     display: flex;
     align-items: center;
     
     justify-content: center;
-    transition: all 2s ease;
+    transition: all 0.5s ease;
 }
 
 .div15 img {
@@ -172,7 +172,7 @@ h2:hover {
 .div15-dark {
     background-color: black;
     color: white;
-    transition: all 2s ease;
+    transition: all 0.5s ease;
 }
 
 
@@ -187,7 +187,7 @@ h2:hover {
     display: flex;
     align-items: center;
     justify-content: left;
-    transition: all 1s ease;
+    transition: all 0.5s ease;
     flex-direction: column;
     padding: 5%;
     
@@ -210,11 +210,17 @@ h2:hover {
 
         
     }
+    .div15 img {
+        width: 90%;
+      
+    }
+
+
 }
 .div2-dark {
     background-color: black;
     color: white;
-    transition: all 2s ease;
+    transition: all 0.5s ease;
 }
 
 .profile-pic {
@@ -408,7 +414,7 @@ p {
 
 .hidden {
     opacity: 0;
-    transition: all 3s;
+    transition: all 1s;
     filter: blur(4px);
     transform: translateY(-75%);
 
