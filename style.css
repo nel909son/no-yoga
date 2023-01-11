@@ -391,6 +391,9 @@ p {
 }
 }
 
+form {
+    padding-bottom: 5%;
+}
 
 .image-main {
     display: flex;
