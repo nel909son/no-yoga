@@ -392,7 +392,8 @@ p {
 }
 
 form {
-    padding-bottom: 5%;
+    margin-bottom: 15%;
+    justify-content: center;
 }
 
 .image-main {
