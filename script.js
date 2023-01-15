@@ -91,3 +91,14 @@ function darkMode() {
     xhr.send(data);
   }
   
+  //remove focus from input
+  function focusInput() {
+    const textField = document.getElementById("inputform");
+  
+    textField.focus();
+  
+    // The input will lose focus after 3 seconds
+    setTimeout(() => {
+      textField.blur();
+    }, 0500);
+  }

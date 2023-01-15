@@ -405,8 +405,8 @@ form {
 }
 
 #preloader{
-    background: white url(./images/loader.gif) no-repeat center center;
-    background-size: 100%;
+    background: white url(./images/loader2.gif) no-repeat center center;
+    background-size: 30%;
     height: 100vh;
     width: 100%;
     position: fixed;
