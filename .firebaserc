@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "noyoga-883b3"
-  }
+    "default": "noyoga-883b3",
+    "staging": "noyoga-883b3"
+  },
+  "targets": {},
+  "etags": {}
 }
